@@ -118,7 +118,7 @@ function SignUpForm() {
         )}
 
         <button type="submit" disabled={loading}
-          className="rounded-[8px] bg-black  p-[12px] text-[16px] font-medium text-white disabled:opacity-50">
+          className="rounded-[8px] bg-black p-[12px] text-[16px] font-medium text-white disabled:opacity-50">
           {loading ? 'Creating account…' : 'Sign Up'}
         </button>
 
