@@ -55,8 +55,3 @@ App runs at: http://localhost:4000
 | `/admin/dashboard` | Admin panel |
 | `/api/admin/setup` | First-time admin setup (visit once) |
 
-## What Changed (vs original)
-- **Database**: NeonDB → Supabase PostgreSQL
-- **Auth**: better-auth → Supabase Auth
-- **Image Upload**: Platform upload API → Supabase Storage (`product-images` bucket)
-- **All UI/UX**: 100% unchanged
